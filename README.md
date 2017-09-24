@@ -13,3 +13,5 @@ Some algorithm implementations of the book: "Introduction to Algorithms"
 
 ***
 
+#### 4. 0 - 1 Knapsack Problem — Dynamic Programming
+

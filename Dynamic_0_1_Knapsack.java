@@ -9,14 +9,13 @@ public class Dynamic_0_1_Knapsack {
         System.out.println(dynamicKnapsack(wt, val, n, W));
     }
 
-    public static int dynamicKnapsack(int[] weight, int[] value, int n, int W) {
+    public static int dynamicKnapsack(int[] wt, int[] val, int n, int W) {
 
         if (n == 0 || W == 0) return 0;
-        if (weight[n] < W) {
-            c[i][k] = Math.max(c[i - 1][k], (c[i - 1][k - weight[i]] + value[i]));
+        if (wt[n - 1] > W) {
+            return dynamicKnapsack(wt, val, n - 1, W);
         } else {
-            c[i][k] = c[i - 1][k];
+            return Math.max(dynamicKnapsack(wt, val, n - 1, W), (dynamicKnapsack(wt, val, n - 1, W - wt[n - 1]) + val[n - 1]));
         }
-        return c[n][W];
     }
 }
