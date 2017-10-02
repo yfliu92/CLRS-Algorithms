@@ -1,11 +1,17 @@
 # CLRS-Algorithms
 Some algorithm implementations of the book: "Introduction to Algorithms"
 
-#### 1.Insertion Sort 
+#### 1.1 Insertion Sort
 
-#### 2. Merge Sort - divide & conquer
+*** 
 
-#### 3. The Maximum Subarray problem — divide & conquer
+#### 2.1 Merge Sort - divide & conquer
+
+#### 2.2 Closest Pair of Points
+
+#### 2.3 The Maximum Subarray problem — divide & conquer
+
+***
 
 * LeetCode — Best Time to Buy and Sell Stock
 
@@ -13,6 +19,10 @@ Some algorithm implementations of the book: "Introduction to Algorithms"
 
 ***
 
-#### 4. 0 - 1 Knapsack Problem — Dynamic Programming
+#### 3.1 0 - 1 Knapsack Problem — Dynamic Programming
 
-#### 5. ActivitySelection - Greedy Algorithm 
+***
+
+#### 4.1 ActivitySelection - Greedy Algorithm 
+
+***
