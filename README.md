@@ -7,7 +7,7 @@ Some algorithm implementations of the book: "Introduction to Algorithms"
 
 #### 2.1 Merge Sort - divide & conquer
 
-#### 2.2 Closest Pair of Points
+#### 2.2 Closest Pair of Points - `To be done!`
 
 #### 2.3 The Maximum Subarray problem — divide & conquer
 
